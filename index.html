@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Task Management - UX Project</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="https://jadenconcord.github.io/a/favicons/d1.png" type="image/x-icon">
+    <style>
+        #contents {
+            width: 200px;
+            margin-left: 50px;
+        }
+
+        .larger {
+            font-size: 1;
+        }
+
+        .first-big::first-letter {
+            font-size: 5rem;
+            line-height: 0;
+            font-family: serif;
+        }
+
+        p {
+            text-align: justify;
+            margin-bottom: 2rem;
+        }
+    </style>
+</head>
+
+<body class="dark">
+    <main class="container box content-center">
+        <header>
+            <nav id="contents" class="float-right">
+                <h3>Contents</h3>
+                <ul style="list-style:none;padding:0;">
+                    <li><a href="#why">A new system</a></li>
+                    <li><a href="#purpose">Purpose</a></li>
+                    <li><a href="#calender">Calender</a></li>
+                    <li><a href="#personas">Personas</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#scnarios">Scenarios</a></li>
+                    <li><a href="#diagrams">Diagrams</a></li>
+                    <li><a href="#user-stories">User Stories</a></li>
+                    <li><a href="#wireframes">Wireframes</a></li>
+                    <li><a href="#conclusion">Conclusion</a></li>
+                    <li><a href="#next">Next Steps</a></li>
+                </ul>
+            </nav>
+            <section>
+                <h1>Task Management - UX Project</h1>
+                <br><br>
+                <p class="first-big">For many <b class="larger"></b>Task Management</b> is a challenging task. Though
+                    the concept of <b class="larger">Task Management</b> is quite simple, the <b
+                        class="larger">effectiveness</b> of keeping
+                    track of <b class="larger">tasks</b> is sometimes ineffective through various software methods.
+                    Through <b class="larger">analysis</b>, <b class="larger"></b>research</b> and <b
+                        class="larger">experiments</b> of <b class="larger">Task Management</b> I have found the <b
+                        class="larger">optimal</b> software <b class="larger">solution</b> for Task Management.</b></p>
+                <p>Three aspects of the optimal task management application are researched. Firstly, the flow of managing
+                    tasks. This includes the framework for how tasks are displayed, calculated and handled. Secondly,
+                    the layout of the application including the header, sidebar and content position and necessity.
+                    Lastly, the navigation of the site's header links.</p>
+            </section>
+            <div class="clear"></div>
+    </main>
+    <main class="container box content-center">
+        </header>
+        <section>
+        </section>
+        <section class="box" id="why">
+            <h2>Why a New Task Management System?</h2>
+            <p>Personally, I have never used task management system that has been effective enough for me to fully
+                implement. I have noticed may flaws in current task management software and written methods where I have
+                found the optimal method that should be used. To stand out from competitors, the new system focuses on
+                simplicity while still having the functional features to be successful.</p>
+        </section>
+        <section class="box" id="purpose">
+            <h2>Purpose</h2>
+            <p>The project I am focusing on could effect how I keep track of and manage tasks. I am invested in this
+                project because I
+                want to find the best method for task management. I currently do not have the best task management
+                system, so this
+                project allows me to create or use a better task management system.</p>
+        </section>
+        <section class="box">
+            <h2>Inspiration and Competition</h2>
+            <figure>
+                <a href="img/SWAT-analysis.png"><img width="100%" src="img/SWAT-analysis.png"></a>
+                <figcaption>SWAT Analysis</figcaption>
+            </figure>
+            <h3>Todoka</h3>
+            <img width="100%" src="img/todoka-preview-1.png">
+            <img width="100%" src="img/todoka-preview-2.png">
+            <img width="100%" src="img/todoka-preview-3.png">
+            <h3>HiTask</h3>
+            <img width="100%" src="img/hitask-preview-1.png">
+            <h3>TODOx</h3>
+            <img width="100%"
+                src="https://d1rqlz1hzbtv8n.cloudfront.net/assets/landing-c6311f511f6e80fd647ad6b7de6e78675289b0285ec3e338c91c90085ce30bc4.png">
+        </section>
+        <section class="box" id="calender">
+            <h2>Calender</h2>
+            <table cellpadding="10" cellspacing="10" class="box">
+                <tr>
+                    <td>
+                        <p align="center">
+                            Todo [design 2]</p>
+                    </td>
+                    <td>
+                        <p align="center">
+                            Next [design 1]</p>
+                    </td>
+                    <td>
+                        <p align="center">
+                            Doing</p>
+                    </td>
+                    <td>
+                        <p align="center">
+                            Done</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p align="left">
+                            More Research for second wire frame [1 hour]</p>
+                    </td>
+                    <td>
+                        <p align="left">
+                            Card Sort 2 for selecting features [2 hours]</p>
+                    </td>
+                    <td>
+                        <p align="left">
+                            External Research [1 hour]</p>
+                    </td>
+                    <td>
+                        <p align="left">
+                            User Scenarios [1 hour]</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+                            Create modified wire frame from new research [2 hour]</p>
+                    </td>
+                    <td>
+                        <p>
+                            Create different approaches for design [1 hour]</p>
+                    </td>
+                    <td>
+                        <p>
+                            Exploration of competitor sites [2 hours 50% done]</p>
+                    </td>
+                    <td>
+                        <p>
+                            Persona Template [1/2 hour]</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+                            Create high fidelity design [2 hours]</p>
+                    </td>
+                    <td>
+                        <p>
+                            Survey for design approaches [1 hour]</p>
+                    </td>
+                    <td>
+                        <p>
+                            Research of various design approaches [1 hour]</p>
+                    </td>
+                    <td>
+                        <p>
+                            Card Sort [1 hour]</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+                            Final Design [1 hour]</p>
+                    </td>
+                    <td>
+                        <p>
+                            Select design and create rough wire frame [1 hour]</p>
+                    </td>
+                    <td>
+                        <p>
+                            More User Scenarios for design [1/2 hour]</p>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+            </table>
+        </section>
+        <section class="box" id="personas">
+            <h2>Personas</h2>
+            <p>The following personas have been made out of mainly interviews and experiments on three different groups.
+                Not real people.
+            </p>
+            <img width="100%" src="img/final-persona-joe.svg">
+            <img width="100%" src="img/final-persona-sally.svg">
+            <img width="100%" src="img/final-persona-matt.svg">
+        </section>
+        <section class="box" id="features">
+            <h2>Features / Goals</h2>
+            <ul>
+                <li>View Tasks</li>
+                <li>View and set dew dates</li>
+                <li>Create subject/class topics for student</li>
+                <li>Calender view or a similar way to display events</li>
+                <li>Tasks within tasks</li>
+                <li>[student] Allow work, school, and other to be separated from each other</li>
+                <li>[manager] Manage projects within categories</li>
+                <li>[employee, manager] Share tasks (and groups) with other people</li>
+                <li>[employee] Hierarchy of tasks</li>
+                <li>[manager] Multiple reminders per event/task</li>
+                <li>[student] Task reminders in advance with custom times</li>
+                <li>[manager] Recurring events/tasks</li>
+            </ul>
+        </section>
+        <section class="box" id="scnarios">
+            <h2>Scenarios</h2>
+            <p>
+                3 scenarios you explored through research, a snapshot of your research methods and results, and a
+                summary of the
+                insights from that research relevant to those scenarios and any associated goals
+            </p>
+            <p>◦ Relevant user behaviors, attitudes, or thinking you identified</p>
+            <p>◦ Key points that helped you distinguish between personas</p>
+            <p>◦ Insights that helped define the direction of your design thinking</p>
+
+            <h3>Joe - Student</h3>
+            <p>Joe is a high school student who is involved in various clubs and extracurricular activities. Joe
+                struggles to keep track of tasks and events for his school and activities. He is good at remembering
+                projects and tasks he needs to get done, but because of this, he has problems turning in things on time
+                and not forgetting things.</p>
+            <h3>Sally - Manager</h3>
+            <p>Sally is a experienced manager in a corporate environment. She has moved up in her position through her
+                hard work and motivation. She is very productive and makes sure to keep track of things, however she is
+                not the best at working efficiently. She also finds using technology challenging, preferring to use
+                written methods to keep track of things, however this comes as a disadvantage to her at times.</p>
+            <h3>Matt - Software Engineer</h3>
+            <p>Matt is a junior software Engineer at a corporate software company. Matt is good at his job, but finds
+                focusing on his work challenging. He easily gets destructed and easily forgets events and projects that
+                need to be done. He is very busy with projects and often has very little time to do other things
+                besides work. He uses task management but finds that he forgets reminders after he sees them sometimes.
+            </p>
+        </section>
+        <section class="box" id="diagrams">
+            <h2>Diagrams & Research</h2>
+            <p>A diagram that speaks to the information architecture of your website or app.</p>
+            <div class="box">
+                <h3>Task Aspect</h3>
+                <hr>
+                <h4>Research</h4>
+                <p>I used task management methods that were published by IBM for <a
+                        href="https://en.wikipedia.org/wiki/Continuous_delivery">Continuous Delivery</a></p>
+                <p>Source for the effectiveness of Continuous Delivery can be found <a
+                        href="https://ieeexplore.ieee.org/document/7884954">here</a></p>
+                <figure>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/8/88/TaskLifeCycle.png">
+                    <figcaption>Task Life Cycle <a href="https://en.wikipedia.org/wiki/Task_management">Wikipedia</a>
+                        IBM</figcaption>
+                </figure>
+                <h4>Drafting</h4>
+                <img width="50%" style="float:left" src="img/sketch-diagram-1.jpeg">
+                <img width="50%" style="float:left" src="img/sketch-diagram-2.jpeg">
+                <img width="100%" style="float:left" src="img/sketch-diagram-3.jpeg">
+                <div class="clear"></div>
+                <h4>Final Draft</h4>
+                <img src="img/task-diagram.svg" width="100%">
+
+            </div>
+            <div class="box">
+                <h3>Layout Aspect</h3>
+                <p>The following slideshow was used to test 5 users speed to complete the tasks. (some items are not
+                    properly formatted in the preview)</p>
+                <iframe src="img/user_test.pdf" width="100%" height="500" frameborder="0"></iframe>
+                <hr>
+                <p>Here is a summary of the results:</p>
+                <ul>
+                    <li>Drop down menu’s are the most confusing, slowest navigation</li>
+                    <li>Sidebar is the most efficient, easy to use layout</li>
+                    <li>The details box has mid efficiency</li>
+                    <li>Combining Sidebar with details box is efficient</li>
+                </ul>
+                <h4>Survey results</h4>
+                <p>Note: the numbers has been flattened so that it can fit on the webpage as it is a preview.</p>
+                <table cellspacing="10" cellpadding="10">
+                    <colgroup>
+                        <col />
+                        <col />
+                        <col />
+                        <col />
+                        <col />
+                        <col />
+                    </colgroup>
+                    <tr>
+                        <td> </td>
+                        <td>
+                            <p>Average</p>
+                        </td>
+                        <td>
+                            <p>A</p>
+                        </td>
+                        <td>
+                            <p>B</p>
+                        </td>
+                        <td>
+                            <p>C</p>
+                        </td>
+                        <td>
+                            <p>D</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p> Warm up 1</p>
+                        </td>
+                        <td>
+                            <p>5</p>
+                        </td>
+                        <td>
+                            <p>6</p>
+                        </td>
+                        <td>
+                            <p>6</p>
+                        </td>
+                        <td>
+                            <p>4</p>
+                        </td>
+                        <td>
+                            <p>5</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Details 2</p>
+                        </td>
+                        <td>
+                            <p>5</p>
+                        </td>
+                        <td>
+                            <p>7</p>
+                        </td>
+                        <td>
+                            <p>5</p>
+                        </td>
+                        <td>
+                            <p>3</p>
+                        </td>
+                        <td>
+                            <p>7</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p> Sidebar 3</p>
+                        </td>
+                        <td>
+                            <p>3</p>
+                        </td>
+                        <td>
+                            <p>3</p>
+                        </td>
+                        <td>
+                            <p>3</p>
+                        </td>
+                        <td>
+                            <p>1</p>
+                        </td>
+                        <td>
+                            <p>3</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Side+detail 4</p>
+                        </td>
+                        <td>
+                            <p>4</p>
+                        </td>
+                        <td>
+                            <p>4</p>
+                        </td>
+                        <td>
+                            <p>6</p>
+                        </td>
+                        <td>
+                            <p>2</p>
+                        </td>
+                        <td>
+                            <p>3</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Drop down 5</p>
+                        </td>
+                        <td>
+                            <p>10</p>
+                        </td>
+                        <td>
+                            <p>12</p>
+                        </td>
+                        <td>
+                            <p>20</p>
+                        </td>
+                        <td>
+                            <p>5</p>
+                        </td>
+                        <td>
+                            <p>4</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p> Self-learn 6</p>
+                        </td>
+                        <td>
+                            <p>12</p>
+                        </td>
+                        <td>
+                            <p>18</p>
+                        </td>
+                        <td>
+                            <p>12</p>
+                        </td>
+                        <td>
+                            <p>7</p>
+                        </td>
+                        <td>
+                            <p>10</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Average</p>
+                        </td>
+                        <td>
+                            <p>6</p>
+                        </td>
+                        <td>
+                            <p>8</p>
+                        </td>
+                        <td>
+                            <p>9</p>
+                        </td>
+                        <td>
+                            <p>4</p>
+                        </td>
+                        <td>
+                            <p>5</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p> Warm up %</p>
+                        </td>
+                        <td>
+                            <p>12</p>
+                        </td>
+                        <td>
+                            <p>24</p>
+                        </td>
+                        <td>
+                            <p>31</p>
+                        </td>
+                        <td>
+                            <p>-14</p>
+                        </td>
+                        <td>
+                            <p>8</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Details %</p>
+                        </td>
+                        <td>
+                            <p>12</p>
+                        </td>
+                        <td>
+                            <p>14</p>
+                        </td>
+                        <td>
+                            <p>35</p>
+                        </td>
+                        <td>
+                            <p>28</p>
+                        </td>
+                        <td>
+                            <p>-27</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p> Sidebar %</p>
+                        </td>
+                        <td>
+                            <p>53</p>
+                        </td>
+                        <td>
+                            <p>61</p>
+                        </td>
+                        <td>
+                            <p>60</p>
+                        </td>
+                        <td>
+                            <p>54</p>
+                        </td>
+                        <td>
+                            <p>36</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Side+detail %</p>
+                        </td>
+                        <td>
+                            <p>40</p>
+                        </td>
+                        <td>
+                            <p>51</p>
+                        </td>
+                        <td>
+                            <p>30</p>
+                        </td>
+                        <td>
+                            <p>39</p>
+                        </td>
+                        <td>
+                            <p>38</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Drop down %</p>
+                        </td>
+                        <td>
+                            <p>-42</p>
+                        </td>
+                        <td>
+                            <p>-37</p>
+                        </td>
+                        <td>
+                            <p>-121</p>
+                        </td>
+                        <td>
+                            <p>-39</p>
+                        </td>
+                        <td>
+                            <p>27</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p> Self-learn %</p>
+                        </td>
+                        <td>
+                            <p>-75</p>
+                        </td>
+                        <td>
+                            <p>-115</p>
+                        </td>
+                        <td>
+                            <p>-36</p>
+                        </td>
+                        <td>
+                            <p>-67</p>
+                        </td>
+                        <td>
+                            <p>-83</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="box">
+                <h3>Navigation Aspect</h3>
+                <hr>
+                <h4>Card Sort</h4>
+                <p>What I found after the card sort results were compiled, is that account and settings menu was the
+                    most confusing and should be combined into one. I also found that Documentation and Update
+                    Notifications were not categorized meaning that they should be included in an separate category or
+                    removed.</p>
+                <p>The following is the locations of certain menu item categorization based on the card sort. Only some
+                    of the following items will be used.</p>
+                <ul>
+                    <li>
+                        <p>Main Menu</p>
+                        <ul>
+                            <li>
+                                <p>Important Tasks</p>
+                            <li>
+                                <p>Notifications</p>
+                            <li>
+                                <p>Events</p>
+                            <li>
+                                <p>Reminders</p>
+                            <li>
+                                <p>Dashboard</p>
+                            <li>
+                                <p>Home</p>
+                            <li>
+                                <p>Today's Tasks</p>
+                            <li>
+                                <p>Tasks</p>
+                        </ul>
+                    <li>
+                        <p>Settings Menu</p>
+                        <ul>
+                            <li>
+                                <p>Account Settings</p>
+                            <li>
+                                <p>Customize Dashboard</p>
+                            <li>
+                                <p>Settings</p>
+                        </ul>
+                    <li>
+                        <p>Account Menu</p>
+                        <ul>
+                            <li>
+                                <p>Meetings *</p>
+                            <li>
+                                <p>Help</p>
+                            <li>
+                                <p>Manage Tasks</p>
+                        </ul>
+                    <li>
+                        <p>un-Categorized</p>
+                        <ul>
+                            <li>
+                                <p>Update Notifications</p>
+                            <li>
+                                <p>Documentation</p>
+                        </ul>
+                </ul>
+                <details>
+                    <summary>Raw Data Result</summary>
+                    <pre><code>
+card_id card_label category_id category_label user_id
+1 Important Tasks 1 Main Menu 1
+2 Events 1 Main Menu 1
+3 Reminders 1 Main Menu 1
+4 Dashboard 1 Main Menu 1
+5 Home 1 Main Menu 1
+6 Today's Tasks 1 Main Menu 1
+7 Tasks 1 Main Menu 1
+8 Settings 2 Settings Menu 1
+9 Documentation 2 Settings Menu 1
+10 Account Settings 2 Settings Menu 1
+11 Meetings 3 Account Menu 1
+12 Update Notiflications 3 Account Menu 1
+13 Help 3 Account Menu 1
+14 Customize Dashboard 3 Account Menu 1
+15 Manage Tasks 3 Account Menu 1
+16 Notiflications 3 Account Menu 1
+8 Settings 1 Main Menu 2
+13 Help 1 Main Menu 2
+4 Dashboard 1 Main Menu 2
+12 Update Notiflications 1 Main Menu 2
+6 Today's Tasks 1 Main Menu 2
+5 Home 1 Main Menu 2
+1 Important Tasks 1 Main Menu 2
+7 Tasks 1 Main Menu 2
+16 Notiflications 1 Main Menu 2
+2 Events 1 Main Menu 2
+3 Reminders 1 Main Menu 2
+9 Documentation 1 Main Menu 2
+11 Meetings 1 Main Menu 2
+15 Manage Tasks 3 Account Menu 2
+10 Account Settings 3 Account Menu 2
+14 Customize Dashboard 2 Settings Menu 2
+1 Important Tasks 1 Main Menu 3
+7 Tasks 1 Main Menu 3
+16 Notiflications 1 Main Menu 3
+6 Today's Tasks 1 Main Menu 3
+3 Reminders 1 Main Menu 3
+4 Dashboard 1 Main Menu 3
+5 Home 1 Main Menu 3
+11 Meetings 3 Account Menu 3
+2 Events 3 Account Menu 3
+15 Manage Tasks 3 Account Menu 3
+9 Documentation 3 Account Menu 3
+13 Help 3 Account Menu 3
+8 Settings 2 Settings Menu 3
+10 Account Settings 2 Settings Menu 3
+14 Customize Dashboard 2 Settings Menu 3
+12 Update Notiflications 2 Settings Menu 3</code></pre>
+                </details>
+                <p>Based on the results, I have reached the conclusion that for best user experience, there should be
+                    only an Account menu which includes account settings and general settings. I will keep minimal
+                    features on the product which excludes the need for a Main Menu.</p>
+            </div>
+        </section>
+        <section class="box" id="user-stories">
+            <h2>User Stories</h2>
+            <ul>
+                <li>Student<ul>
+                        <li>As a Student, I want to separate my work and school tasks from each other so that I can stay
+                            more organized and focus on specific groups at a time</li>
+                        <li>As a Student, I want to be able to be reminded of events in advance so that I can prepare
+                            for the next event</li>
+                        <li>As a Student, create subjects for my classes so that I can focus on a single class at a time
+                            and stay organized</li>
+                    </ul>
+                </li>
+                <li>Manager<ul>
+                        <li>As a Manager, I want to set recurring events so that I don't have to create a new event every
+                            time</li>
+                        <li>As a Manager, I want to view my co-workers tasks so that I can see what they have completed
+                        </li>
+                        <li>As a Manager, I need to be able to create projects that I can share with my co-workers so
+                            that I can easily give then their work</li>
+                    </ul>
+                </li>
+                <li>Employee<ul>
+                        <li>As an Employee, I need to show my tasks to my manager so that I can get credit for the work
+                            I have done</li>
+                        <li>As an Employee, I need to prioritize my tasks so that I can be able to remember that more
+                            important tasks that I am told to complete first</li>
+                        <li>As an Employee, I need to create large projects with sub-tasks so that I can stay organized
+                            withing my larger scope of tasks</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section class="box" id="wireframes">
+            <h2>Wireframes</h2>
+            <p>The first frame was made out of the results from the layout experiments which showed me the following
+                information</p>
+            <ul>
+                <li>Using the sidebar is the most efficient and easy to learn layout</li>
+                <li>Using a dropdown box is the most challenging item for certain users to understand</li>
+                <li>Dropdown boxes should be expanded by default to prevent confusion in not understanding opening them
+                </li>
+            </ul>
+            <p>For the header, I also had the card sort which revealed that I should combine the settings and account
+                together.</p>
+            <img width="100%" src="img/frame-1.png">
+            <p>In the next iteration, I did research on task management, and integrated its functionality into the
+                wireframes (shown to the right)</p>
+            <p>From looking at the card sort, I was also able to use 4 items on the menu which are Upgrade, Preferences,
+                Account Settings, and help. The upgrade section was added as the call to action.</p>
+            <p>In addition to these, I added catagories because they were needed from the personas and needs of general
+                users.</p>
+            <img width="100%" src="img/frame-2.png">
+            <p>The next iteration added a basic theme to the app which made it easier to understand the functionality
+                of the app. I also filled in placeholder text and added the sharing options, again because of the needs
+                shown in the personas and research.</p>
+            <img width="100%" src="img/frame-3.png">
+            <p>The last iteration outlines and identifies the functionality of the app. Note: the logo icon on the top
+                left is a placeholder for the client's or app's logo.</p>
+            <p>The last feature I needed to add was to tasks. I added options to create sub-tasks. This action was done
+                to give advanced users options to have more freedom on how they organize the app. Basic functionality is
+                simple, but this is an advanced feature.</p>
+            <p>I also have added an assigned icon to show that a task is assigned or not. It is also toggle-able so the
+                the tasks do not need to be edited in an external popup. The task names are also editable when focused.
+            </p>
+            <img width="100%" src="img/frame-4.png">
+        </section>
+        <section class="box" id="conclusion">
+            <h2>Conclusion</h2>
+            <p>A concluding summary of your project that addresses how your designs improve the user experience beyond
+                the current
+                state and/or create business value.</p>
+            <p>At the beginning of this project, I analyzed existing task management apps and then stripped the basic
+                feature from them, creating a more simplified, user oriented, effective design that gives a competitive
+                edge over the competitors.</p>
+            <blockquote>
+                <em>The best designers and the best programmers aren't the ones with the best skills, or the nimblest
+                    fingers, or the new who can rock and roll with Photoshop or their environment of choice, they are
+                    the
+                    ones that can determine what just doesn't matter. That's where the real gains are made.</em>
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 37signals
+            </blockquote>
+            <p>By recognizing that simplicity is a competitive advantage, I was able to conduct research and experiments
+                that allowed me to create a more efficient task management solution. These experiments allowed me to
+                find the optimal layout for the app, which turned out to include a sidebar. Using research into task
+                management, I was able to add features to improve productivity in the app more than its competitors.</p>
+            <p>With the competitive advantage, I was able to surface, higher conversion rates and a greater use of the
+                app is to be expected through the improvements to usability. With the addition of premium features, the
+                application should generate high business value with a more pleasing application.</p>
+        </section>
+        <section class="box" id="next">
+            <h2>Next Steps</h2>
+            <p>My next steps in this project would be to actually create the application. I would have to create a
+                working application with the information I now have, do more tests and research on how it preforms, and
+                then I would make changes to the application and repeat this process.</p>
+            <p>Here are some of the steps that I would take:</p>
+            <ul>
+                <li>Create premium features</li>
+                <li>Deploy and study user behavior to purchase things within the application</li>
+                <li>Make changes with the new data collected</li>
+                <li>Watch competitors and react to changes in the market or trends that should be implemented</li>
+            </ul>
+        </section>
+    </main>
+</body>
+
+</html>
